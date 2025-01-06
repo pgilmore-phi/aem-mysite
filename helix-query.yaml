@@ -25,6 +25,10 @@ indices:
         select: head > meta[name="template"]
         value: |
           attribute(el, 'content')
+      lastModified:
+        select: head > meta[name="lastModified"]
+        value: |
+          attribute(el, 'content')
       robots:
         select: head > meta[name="robots"]
         value: |
