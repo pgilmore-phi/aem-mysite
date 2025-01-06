@@ -2,11 +2,9 @@ version: 1
 indices:
   site:
     include:
-      - /**
-    # exclude:
-    #   - /ca/**
-    #   - /blog/*
-    #   - /drafts/**
+      - '/**'
+    exclude:
+      - '/build-your-first-site'
     target: /query-index.json
     properties:
       title:
