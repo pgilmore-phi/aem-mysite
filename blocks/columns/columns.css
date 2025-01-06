@@ -15,7 +15,7 @@
   order: 0;
   overflow: hidden;
   border-radius: 15px; /* Adjust the border-radius as needed */
-  box-shadow: 20px 24px 18px rgba(0, 0, 0, 0.5);
+  box-shadow: 20px 24px 18px rgba(0, 0, 0, 50%);
 }
 
 .columns > div > .columns-img-col img {
