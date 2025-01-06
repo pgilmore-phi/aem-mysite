@@ -24,9 +24,9 @@ indices:
         value: |
           attribute(el, 'content')
       lastModified:
-        select: head > meta[name="lastModified"]
+        select: none
         value: |
-          attribute(el, 'content')
+          parseTimestamp(headers['last-modified'], 'ddd, DD MMM YYYY hh:mm:ss GMT')
       robots:
         select: head > meta[name="robots"]
         value: |
